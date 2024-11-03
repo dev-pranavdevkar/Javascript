@@ -27,3 +27,13 @@ obj2 = { 3: "b", 4: "c" };
 // obj3 = Object.assign({},obj1,obj2)
 obj3={...obj1, ...obj2}
 console.log("obj3 is", obj3);
+
+
+course = {
+    subject: "Javascript",
+    price: 3500,
+    courseInstructor:"Hitesh Choudhari"
+}
+
+const { courseInstructor: instructor } = course; //access the courseInstructor from course and : after colon is used to make name short as you wish
+console.log(instructor);
